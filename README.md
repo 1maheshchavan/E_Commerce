@@ -50,3 +50,6 @@ This is a simple and responsive e-commerce web application Built with React. The
 - CSS : Basic styling for layout and design.
 - Git for version control
 
+# Sample Images -
+![Product Detials](./src/components/images/product_details.png)
+![Product List](./src/components/images/product_list.png)
