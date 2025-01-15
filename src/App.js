@@ -5,6 +5,7 @@ import ProductList from "./components/ProductList.jsx";
 import ProductDetails from "./components/ProductDetails.jsx";
 import Cart from "./components/Cart.jsx";
 
+
 const App = () => {
   const [cart, setCart] = useState([]);
 
