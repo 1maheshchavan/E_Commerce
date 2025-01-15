@@ -1,70 +1,52 @@
-# Getting Started with Create React App
+# E-Commerce Web Application
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a simple and responsive e-commerce web application Built with React. The app Provides functionalities such as viewing a list of products, viewing Detailed product Information, adding/removing products from The shopping cart and filtering and sorting products based on various Criteria.
 
-## Available Scripts
 
-In the project directory, you can run:
+# Features
 
-### `npm start`
+## Product List -
+- Displays a list of products Fetched from the [Fake Store API](https://fakestoreapi.com/products).
+- Each product shows an image title price and category.
+- You can add Products to the cart directly from the Product list.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Product Details Page -
+- Users can click on a product to view more detailed information.
+- The product details include price Description rating and category.
+- You can also add the product to the Cart from This page.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Shopping Cart -
+- Displays all the products added to the cart, including their title, image, price, and quantity.
+- You can adjust the quantity of each item or remove items from the cart.
+- The total price is automatically calculated based on the selected quantities.
 
-### `npm test`
+## Filtering and Sorting -
+- Search : Users can search for products by name.
+- Category Filter : Users can filter products by category (e.g., Electronics, Jewelry, Men's Clothing, Women's Clothing).
+- Price Range : Users can filter products by setting a price range.
+- Sort Options : Users can sort the products by price (ascending/descending) or rating (highest to lowest).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##  Responsive Design -
+- The app is fully Responsive Providing a good user experience across all devices (desktop, tablet, and mobile).
+- The left sidebar for filters and Sorting adjusts appropriately for Smaller screen sizes.
 
-### `npm run build`
+## Usage - 
+- Product List Page: View a list of products and add them to your shopping cart.
+- Product Details Page: Click on a product to see more details and add it to the cart.
+- Cart Page: View the products you have added to your cart. You can update quantities or remove items.
+- Filtering and Sorting: Use the sidebar to filter products by category, price range, and sort them by price or rating.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Future Improvements
+- User Authentication: Add login and signup functionality for users to create accounts and track their orders.
+- Backend Integration: Implement a backend (e.g., Node.js with Express) to manage the shopping cart and user data.
+- Payment Gateway: Integrate a payment gateway like Stripe or PayPal to enable purchasing.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+# Technologies Used
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- React : A JavaScript library for building user interfaces.
+- React Router : For handling navigation and routing between pages.
+- Axios : To fetch product data from the Fake Store API.
+- Bootstrap : For responsive and mobile-first design components.
+- CSS : Basic styling for layout and design.
+- Git for version control
 
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

@@ -4,6 +4,7 @@ import Header from "./components/Header.jsx";
 import ProductList from "./components/ProductList.jsx";
 import ProductDetails from "./components/ProductDetails.jsx";
 import Cart from "./components/Cart.jsx";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 
 const App = () => {
