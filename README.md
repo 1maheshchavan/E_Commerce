@@ -51,8 +51,4 @@ This is a simple and responsive e-commerce web application Built with React. The
 
 # Demo
 
-You can preview the app by visiting the following link: [Live Demo]()
-
-# Sample Images -
-![Product Detials]()
-![Product List]()
+You can preview the app by visiting the following link: [Live Demo](https://e-commerce-git-master-1maheshchavans-projects.vercel.app/)
